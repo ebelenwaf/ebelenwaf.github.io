@@ -1,0 +1,586 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8 />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width" />
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Francois+One|Lusitana:400,700' rel='stylesheet' type='text/css'>
+
+  <title> Security and Privacy in Cyber-Physical Systems</title>
+</head>
+<body data-spy="scroll" data-offset="56" data-target=".navbar-default">
+  <!-- the code which you are about to read should not reflect poorly on the instructors of this course -->
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">CSC 5930/9010</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#information">Summary</a></li>
+        <li><a href="#logistics">Logistics</a></li>
+        <li><a href="#staff">Staff</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#homework">Homework</a></li>
+        <li><a href="#project">Project</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
+
+  <div class="container" id="main">
+    <header id="page-header">
+      <h1>Security and Privacy in Cyber-Physical Systems<br><small>Fall 2019 | Wednesday 3:00pm-5:45pm in ...</small></h1>
+    </header>
+
+<!--     <section id="announcements">
+      <h2>Recent Announcements</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="announcement">
+              <ul><li>CSC 4480: Principle of Database Systems! Class starts on August 26. </li></ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="information">
+      <h2>Course Summary</h2>
+      <div class="row">
+        <div class="col-md-8">
+          <p>
+            From smart homes to consumer wearables, cyber-physical systems have become a commonplace
+            in our daily lives. The heterogeneous connectivity amongst these devices has led to an increase
+            in vulnerabilities while introducing new attack vectors. In this course, we will study the fundamental concepts, technologies used, and the current issues related to the security and privacy of cyber physical systems–primarily focusing on the Internet of Things (IoT). This course places an emphasis on hands-on projects with assigned readings and presentations. At the end of the course, students are expected to have completed a research project which outlines an IoT related vulnerability and a proposed solution. 
+          </p>
+
+
+        </div>
+
+				<div class="col-md-4">
+			    <div class="well well-sm">
+				    <table class="table" style="margin-bottom: 0px">
+				      <thead>
+				        <tr>
+				          <th colspan="2">
+				            Details
+				          </th>
+				        </tr>
+				      </thead>
+				      <tbody>
+  		    		  <tr>
+				          <td>Location</td>
+					        <td>Mendel G87</td>
+					      </tr>
+				        <tr>
+				          <td>Credits</td>
+				          <td>3</td>
+				        </tr>
+				        <tr>
+				          <td>Grades</td>
+				          <td>
+				          	<b>
+
+				          	<ul>
+							  <li>A: 93–100</li>
+							  <li>A-: 90–92</li>
+							  <li>B+: 86-89</li>
+							  <li>B: 83–85</li>
+							  <li>B-: 80–82</li>
+							  <li>C+: 76–79</li>
+							  <li>C: 73–75</li>
+							  <li>C-: 70–72</li>
+							  <li>D+: 66–69</li>
+							  <li>D: 63-65</li>
+							  <li>D-: 60-62</li>
+							  <li>F: 59-0</li> </b>
+
+
+
+							</ul> 
+
+
+				          	<!-- <b>A:93–100, A-:90–92, B+:86-89, B:83–85, B-:80–82, C+ :76–79, C: 73–75, C-: 70–72, D+: 66–69, D: 63-65, D-: 60-62, F:59-0 </b> --></td>
+        				</tr>
+				        <tr>
+				          <td>Prerequisites</td>
+				          <td>Data Structures and Algorithms II and Junior Standing</td>
+				        </tr>
+				      </tbody>
+				    </table>
+			    </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="logistics">
+        <h2>Course Logistics and Policies</h2>
+        <p>
+          Students are required to attend all of the class meetings, no exceptions. If for any reason you cannot make a scheduled class time due to a bonified emergency, please contact the instructor ahead of time with proper documentation to suplement your claim. It is expected that each student must have read the topic to be covered before it is discussed in class.
+        </p>
+      </section>
+
+    <section id="staff">
+      <h2>Staff</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <table class="table">
+            <thead>
+              <tr>
+                <th colspan="2">Ebelechukwu Nwafor, Ph.D -Instructor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Office</td>
+                <td>Gates 190</td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>enwafor@villanova.edu</td>
+              </tr>
+            </tbody>
+
+
+          </table>
+        </div>
+
+        <div class="col-md-4">
+          <table class="table">
+            <thead>
+              <tr>
+                <th colspan="2">Jerry Cain -Teaching Assistant</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Office</td>
+                <td>Gates 192</td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>jerry@cs.stanford.edu</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+
+       </div>
+    </section>
+
+    <section id="schedule">
+      <h2>Schedule (Tentative)</h2>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Topic</th>
+            <th>Materials</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td>08/28 </td>
+            <td>
+          <li> <b>Introduction of IoT </b>
+            	<ul>
+      				  <li>Review of <a href="documents/syllabus.pdf"> Course Syllabus</a></li>
+      				  <li>What is IoT</li>
+                <li>IoT Architecture </li>
+      				</ul> 
+         </li>  
+			</td>
+            <td><!-- <a href="lectures/00/Slides00.pdf"> -->Lecture 1</a></td>
+
+
+            <td> <a href ="https://www.latex-tutorial.com/quick-start/"> Latex Tutorial</a> <br>
+            <a href ="https://sites.google.com/site/mattmastin/teaching/grsc-7700/latex-templates"> Latex Templates</a> <br>
+            <a href ="https://www.overleaf.com"> Overleaf</a> 
+          </td>
+
+<!--             <td>
+            	<ul>
+				  <li>HW 1 Posted after class</li>
+				  <li>Read Chapter 2 of the book</li>
+				</ul>  -->
+          </tr>
+
+          <tr>
+            <td> 9/04</td>
+            <td>
+              <li> <b>Introduction of IoT (cont'd) </b>
+              	<ul>
+        				  <li>Application areas of IoT</li>
+        				  <li>IoT Communications Protocols</li>
+        				</ul> 
+              </li>
+			      </td>
+            <td><a href="lectures/01/Slides01.pdf">Slides</a></td>
+            <td>
+                <b>Project 1: Designing an IoT application using Openthread and Socket API </b>
+            </td>
+          </tr>
+
+          <tr>
+            <td>9/11</td>
+            <td>
+              <li> <b> Introduction to Security and Privacy </b>  
+              	<ul>
+        				  <li>Differences between Security and Privacy </li>
+        				  <li>Malwares</li>
+                  <li>Security Primitives</li>
+  				      </ul> 
+              </li>
+            </td>
+            <td><a href="lectures/01/Slides01.pdf">Slides</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>9/18</td>
+            <td> 
+              <li> <b> Introduction to Security and Privacy (cont'd) </b>
+            	<ul>
+				        <li> Security Primitives (cont'd) </li>
+				      </ul> 
+              </li> 
+			      </td>
+            <td><a href="lectures/01/Slides01.pdf">Slides</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>9/25</td>
+            <td>
+              <li> <b> Common Security Vulnerabilities </b>
+              	<ul>
+  				        <li>Buffer Overflow Attacks </li>
+                  <li>Malware Identification </li>
+                  <li> SQL Injection </li>
+                  <li> Denial of Service </li>
+                  <li> Man in the Middle Attacks </li>
+
+  				      </ul>  
+              </li> 
+			       </td>
+            <td><a href="lectures/CS9Teamwork.pdf">Slides</a></td>
+
+            <td> <b>[HW 1] Reverse Engineering using android APK </b> <br>
+              <b>[HW 2] ARP Poisoning using Wireshark/Ethercap </b>
+            </td>
+          </tr>
+          <tr>
+            <td>10/02</td>
+            <td>
+              <li> <b> Social Implications of Security and Privacy Issues in IoT/CPS </b>
+              	<ul>
+        				  <li>Case Study 1: Drones </li>
+        				  <li>Case Study 2: Wearables/Health Care </li>
+                  <li>Case Study 3: Automotive </li>
+  				      </ul> 
+              </li> 
+			      </td>
+            <td><a href="lectures/CS9Teamwork.pdf">Slides</a></td>
+            <td>
+              <b> Midterm Review </b>
+            </td> 
+          </tr>
+          <tr>
+            <td>10/09</td>
+            <td align="center">
+            	<b> Midterm Exam </b>
+			      </td>
+            <td></td>
+            <td></td> 
+          </tr>
+          <tr>
+            <td>10/16</td>
+            <td align="center"> <b>Semester Recess - No Class </b>
+
+            </td>
+            <td>
+               
+            </td>
+            <td>
+              
+            </td> 
+          </tr>
+          <tr>
+            <td>10/23</td>
+            <td>
+              <li> <b> Current Research in IoT Security </b>
+              	<ul>
+  				        <li> Research Paper 1 </li>
+                  <li> Research Paper 2 </li>
+  				      </ul>  
+              </li>
+
+			      </td>
+		
+            <td><a href="lectures/CS9Teamwork.pdf">Slides</a></td>
+
+            <td>
+                <b> Final Project Timeline </b> 
+            </td>
+		
+      
+          </tr>
+
+          <tr>
+            <td>10/30</td>
+            <td>
+              <li> <b> Current Research in IoT Security </b>
+                <ul>
+                  <li> Research Paper 1 </li>
+                  <li> Research Paper 2 </li>
+                </ul>  
+              </li>
+
+            </td>
+		
+            <td><a href="lectures/CS9Teamwork.pdf">Slides</a></td>
+
+            <td>
+              
+            </td>
+		
+      
+          </tr>
+
+          <tr>
+            <td>11/06</td>
+            <td>
+              <li> <b> Current Research in IoT Security </b>
+                <ul>
+                  <li> Research Paper 1 </li>
+                  <li> Research Paper 2 </li>
+                </ul>  
+              </li>
+
+            </td>
+    
+            <td><a href="lectures/CS9Teamwork.pdf">Slides</a></td>
+
+            <td>
+              
+            </td>
+    
+      
+          </tr>
+
+          <tr>
+            <td>11/13</td>
+            <td>
+              <li> <b> Current Research in IoT Security </b>
+                <ul>
+                  <li> Research Paper 1 </li>
+                  <li> Research Paper 2 </li>
+                </ul>  
+              </li>
+
+            </td>
+    
+            <td><a href="lectures/CS9Teamwork.pdf">Slides</a></td>
+
+            <td>
+              
+            </td>
+    
+      
+          </tr>
+
+
+
+          <tr>
+            <td>11/20</td>
+            <td align="center">
+            	<b>Thanksgiving - No Class </b>
+			      </td>
+
+            <td>
+            	
+            </td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>11/27</td>
+            <td>
+              <li> <b> Current Research in IoT Security </b>
+                <ul>
+                  <li> Research Paper 1 </li>
+                  <li> Research Paper 2 </li>
+                </ul>  
+              </li>
+
+            </td>
+    
+            <td><a href="lectures/CS9Teamwork.pdf">Slides</a></td>
+
+            <td>
+              
+            </td>
+    
+      
+          </tr>
+
+
+          <tr>
+            <td>12/04</td>
+            <td align="center">
+            	<b>Project Presentations </b>
+			      </td>
+
+            <td>
+            	
+            </td>
+
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>12/11</td>
+            <td align="center">
+            	<b>Project Presentations </b>
+			      </td>
+
+            <td>
+            	
+            </td>
+            <td> </td>  
+          </tr>
+
+
+        </tbody>
+      </table>
+    </section>
+
+
+
+<!--       <section id="homework">
+        
+      
+            <p>Homework files and information will be posted here. PDF and Latex files for the
+            problems sets will be provided. You are free to use the Latex file to help you get started on the write-up.</p>
+
+            <h3> Homework 0 </h3>
+            <ul>
+                <li>Problem Set : 
+                    <a href="assets/HW/HW0/hw0.pdf" target="_blank">homework-0.pdf</a>
+                    [<a href="assets/HW/HW0/hw0.pdf" target="_blank">pdf</a>]
+                    [<a href="assets/HW/HW0/hw0.tex" target="_blank">Latex</a>]
+                </li>
+                <li>Release Date: 08/27/2018</li>
+                <li>Due Date : 09/04/2018</li>
+                <li>Solutions : <a href="assets/HW/HW0/hw0-solution.pdf" target="_blank">hw0-solution.pdf</a></li>
+            </ul>    
+            <h3> Homework 1 </h3>
+            <ul>
+                <li>Problem Set : 
+                    <a href="assets/HW/HW1/cis519_hw1.pdf" target="_blank">homework-1.pdf</a>
+                    [<a href="assets/HW/HW1/cis519_hw1.pdf" target="_blank">pdf</a>]
+                    [<a href="assets/HW/HW1/hw1.tex" target="_blank">Latex</a>]
+                    [<a href="assets/HW/HW1/hw1.ipynb" target="_blank">ipynb</a>]
+                </li>
+                <li>Data : <a href="assets/HW/HW1/badges.zip" target="_blank">badges.zip</a></li>
+                <li>T-Table : <a href="assets/HW/HW1/t-table.pdf" target="_blank">t-table.pdf</a></li>
+                <li>Release Date : 09/26/2018</li>
+                <li>Due Date : 10/09/2018</li>
+                <li>Solutions: <a href="assets/HW/HW1/hw1-solution.pdf" target="_blank">solution.pdf</a></li>
+            </ul>
+            <h3> Homework 2</h3>
+            <ul>
+                <li>Problem Set : 
+                    <a href="assets/HW/HW2/homework-2.pdf" target="_blank">homework-2.pdf</a>
+                    [<a href="assets/HW/HW2/homework-2.pdf" target="_blank">pdf</a>]
+                    [<a href="assets/HW/HW2/hw2.tex" target="_blank">Latex</a>]
+                </li>
+                <li>Data : Available on Canvas</li>
+                <li>Code : <a href="assets/HW/HW2/hw2.ipynb" target="_blank">hw2.ipynb</a></li>
+                <li>Add Noise : <a href="assets/HW/HW2/add_noise.py" target="_blank">add_noise.py</a></li>
+                <li>Gen : <a href="assets/HW/HW2/gen.py" target="_blank">gen.py</a></li>
+                <li>Release Date : 10/11/2018</li>
+                <li>Due Date : 10/24/2018</li>
+                <li>Solutions: <a href="assets/HW/HW2/hw2_solution.pdf" target="_blank">hw2_solution.pdf</a></li>
+            </ul>
+            <h3> Homework 3 </h3>
+            <ul>
+                <li>Problem Set : 
+                    <a href="assets/HW/HW3/homework-3.pdf" target="_blank">homework-3.pdf</a>
+                    [<a href="assets/HW/HW3/homework-3.pdf" target="_blank">pdf</a>]
+                    [<a href="assets/HW/HW3/main.tex" target="_blank">Latex</a>]
+                </li>
+                <li>Data : <a href="assets/HW/HW3/cifar10-data.zip" target="_blank">cifar10-data.zip</a></li>
+                <li>Code : <a href="assets/HW/HW3/hw3.ipynb" target="_blank">hw3.ipynb</a></li>
+                <li>PyTorch Tutorial : <a href="assets/HW/HW3/tutorial.zip" target="_blank">tutorial.zip</a></li>
+                <li>Release Date : 11/08/2018</li>
+                <li>Due Date : 11/19/2018</li>
+                <li>Solutions: <a href="assets/HW/HW3/hw3_solutions.pdf" target="_blank">hw3_solutions.pdf</a></li>
+            </ul>
+            <h3> Homework 4 </h3>
+            <ul>
+                <li>Problem Set : 
+                    <a href="assets/HW/HW4/homework-4.pdf" target="_blank">homework-4.pdf</a>
+                    [<a href="assets/HW/HW4/homework-4.pdf" target="_blank">pdf</a>]
+                    [<a href="assets/HW/HW4/hw4.tex" target="_blank">Latex</a>]
+                </li>
+                <li>Data : <a href="assets/HW/HW4/20news-data.zip" target="_blank">20news-data.zip</a></li>
+                <li>Code : <a href="assets/HW/HW4/hw4.ipynb" target="_blank">hw4.ipynb</a></li>
+                <li>Release Date : 11/21/2018</li>
+                <li>Due Date : 12/02/2018</li>
+                <li>Solutions: <a href="assets/HW/HW4/hw4_solutions.pdf" target="_blank">hw4_solutions.pdf</a></li>
+            </ul>
+            <h3> Homework 5 </h3>
+            <ul>
+                <li>Problem Set :
+                    <a href="assets/HW/HW5/homework-5.pdf" target="_blank">homework-5.pdf</a>
+                    [<a href="assets/HW/HW5/homework-5.pdf" target="_blank">pdf</a>]
+                    [<a href="assets/HW/HW5/hw5.tex" target="_blank">Latex</a>]
+                </li>
+                
+                li>Data : <a href="assets/HW/HW5/data.zip" target="_blank">data.zip</a></li>
+                <li>Problem Set : <a href="assets/HW/HW5/starter_code.py" target="_blank">starter_code.py</a></li
+
+                <li>Release Date : 12/05/2018</li>
+                <li>Due Date : 12/10/2018</li>
+                <li>Solutions: <a href="assets/HW/HW5/hw5_solutions.pdf" target="_blank">hw5_solutions.pdf</a></li>
+            </ul>
+
+
+
+
+
+
+
+      </section> -->
+
+
+  </div>
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    var offset = 55;
+
+    $('.navbar li a').click(function(event) {
+        event.preventDefault();
+        $($(this).attr('href'))[0].scrollIntoView();
+        scrollBy(0, -offset);
+    });
+  </script>
+</body>
+</html>
