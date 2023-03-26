@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /students/
+title: Students
+description: Below are a list of students I have been fortunate to work with on various research projects.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
-## GitHub users
+<!-- ## GitHub users
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -42,3 +42,41 @@ nav_order: 3
   {% endfor %}
 </div>
 {% endif %}
+ -->
+
+ <!-- pages/projects.md -->
+# Current Students
+#### Graduate Students (Masters)
+1. **Ujjwal Baskota**
+  * Project Title: Simulating distributed load sharing in IoT.
+
+
+#### Undegraduate Students
+2. **Carter Schmidt**
+  * Project Title: Towards developing predictive models to evaluate Asthma group forums
+3. **Ryan Vaughan** (Villanova Undegraduate Research Fund)
+  * Project Title: Graph Clustering on Social Networks using Deep Modularity Networks
+4. **Victoria Wiegand** (Villanova Undegraduate Research Fund)
+  * Project Title: Towards Detecting online dating scams
+5. **Maria Monila**
+  * Project Title: Privacy preserving techniques for medical data.
+6. **Khang Bui** (Villanova Undegraduate Research Fund)
+  * Project Title: Graph representation learning for the mitigation of IoT-based DDoS attacks
+
+
+
+# Alumni
+#### Graduate Students (Masters)
+1. **Christopher Kolimago, MS**
+  * Masters Thesis: Simulating Load Sharing for Resource Constrained Devices. 
+  * Employment: Software Engineer, 3M
+
+#### Undergraduate Students
+1. **Shiyu Su**
+  * Project Title: [Detecting Network Traffic Intrusions on Memory
+Constrained Embedded Systems](https://ieeexplore.ieee.org/document/9619844)
+  * First employment: Ernst & Young
+2. **Matthieu Waller**
+* Project Title: Real-time Information flow tracking in IoT
+3. **Katie Cunnen**
+* Project Title: Incorporating Security into a Load-sharing IoT-based network.

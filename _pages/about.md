@@ -1,25 +1,23 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hello :wave:, welcome to my academic webpage! I am an Assistant Professor at the [Department of Computing Sciences](https://www1.villanova.edu/university/liberal-arts-sciences/programs/computing-sciences.html), [Villanova University.](https://www1.villanova.edu/university.html) My research interests spans across machine learning/natural language processing, information visualization, health informatics, data provenance, and Internet of Things (IoT)/cyber-physical systems security. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+I :mortar_board: graduated my Ph.D in Computer Science from the [Department of Electrical Engineering and Computer Science](https://cea.howard.edu/academics/departments/department-electrical-engineering-and-computer-science), Howard University under the supervision of [Dr.Gedare Bloom ](https://gedare.github.io/).  For my dissertation, I explored the applications of data provenance to the Internet of Things. A brief description of this project can be found [here](http://www.csc.villanova.edu/~enwafor/provenance.pdf) . You can also access a pdf version of my **resume** <a href="./assets/pdf/resume.pdf" target="_blank">here</a> 
+
