@@ -78,5 +78,5 @@ Constrained Embedded Systems](https://ieeexplore.ieee.org/document/9619844)
   * First employment: Ernst & Young
 2. **Matthieu Waller**
 * Project Title: Real-time Information flow tracking in IoT
-3. **Katie Cunnen**
+3. **Katie Cunneen**
 * Project Title: Incorporating Security into a Load-sharing IoT-based network.
