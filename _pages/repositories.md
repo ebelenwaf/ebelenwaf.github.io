@@ -52,15 +52,8 @@ nav_order: 2
 
 
 #### Undegraduate Students
-2. **Carter Schmidt**
-  * Project Title: Towards developing predictive models to evaluate Asthma group forums
-3. **Ryan Vaughan** (Villanova Undegraduate Research Fund)
-  * Project Title: Graph Clustering on Social Networks using Deep Modularity Networks
-4. **Victoria Wiegand** (Villanova Undegraduate Research Fund)
-  * Project Title: Towards Detecting online dating scams
-5. **Maria Monila**
-  * Project Title: Privacy preserving techniques for medical data.
-6. **Khang Bui** (Villanova Undegraduate Research Fund)
+
+1. **Khang Bui** (Villanova Undegraduate Research Fund)
   * Project Title: Graph representation learning for the mitigation of IoT-based DDoS attacks
 
 
@@ -80,3 +73,11 @@ Constrained Embedded Systems](https://ieeexplore.ieee.org/document/9619844)
 * Project Title: Real-time Information flow tracking in IoT
 3. **Katie Cunneen**
 * Project Title: Incorporating Security into a Load-sharing IoT-based network.
+4. **Carter Schmidt**
+  * Project Title: Towards developing predictive models to evaluate Asthma group forums
+5. **Ryan Vaughan** (Villanova Undegraduate Research Fund)
+  * Project Title: Graph Clustering on Social Networks using Deep Modularity Networks
+6. **Victoria Wiegand** (Villanova Undegraduate Research Fund)
+  * Project Title: Towards Detecting online dating scams
+7. **Maria Monila**
+  * Project Title: Privacy preserving techniques for medical data.
