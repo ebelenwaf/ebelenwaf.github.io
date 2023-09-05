@@ -48,13 +48,18 @@ nav_order: 2
 # Current Students
 #### Graduate Students (Masters)
 1. **Ujjwal Baskota**
-  * Project Title: Simulating distributed load sharing in IoT.
+  * Project Title: Large Language Models for Cybersecurity in IoT.
 
 
 #### Undegraduate Students
 
 1. **Khang Bui** (Villanova Undegraduate Research Fund)
   * Project Title: Graph representation learning for the mitigation of IoT-based DDoS attacks
+2. **Tommy Nguyen** 
+  * Project Title: Machine-readable datasets for two low-resourced languages: Igbo & Nigerian Pidgin
+
+3. **Jack McIntyre** 
+  * Project Title: Federated learning for IoT intrusion detection  
 
 
 
