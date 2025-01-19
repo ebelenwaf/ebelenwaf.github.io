@@ -47,8 +47,7 @@ nav_order: 2
  <!-- pages/projects.md -->
 # Current Students
 #### Graduate Students (Masters)
-1. **Ujjwal Baskota**
-  * Project Title: Large Language Models for Cybersecurity in IoT.
+
 
 
 #### Undegraduate Students
@@ -57,9 +56,10 @@ nav_order: 2
   * Project Title: Graph representation learning for the mitigation of IoT-based DDoS attacks
 2. **Tommy Nguyen** 
   * Project Title: Machine-readable datasets for two low-resourced languages: Igbo & Nigerian Pidgin
-
 3. **Jack McIntyre** 
-  * Project Title: Federated learning for IoT intrusion detection  
+  * Project Title: Federated learning for IoT intrusion detection
+4. **Khanh Le**
+   * Project Title: Multi-agent LLM for Enhanced Security.
 
 
 
@@ -68,6 +68,9 @@ nav_order: 2
 1. **Christopher Kolimago, MS**
   * Masters Thesis: Simulating Load Sharing for Resource Constrained Devices. 
   * Employment: Software Engineer, 3M
+2. **Ujjwal Baskota**
+  * Project Title: Large Language Models for Cybersecurity in IoT.
+  * Employment: Software Engineer, Amazon.
 
 #### Undergraduate Students
 1. **Shiyu Su**
