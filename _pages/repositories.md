@@ -51,14 +51,11 @@ nav_order: 2
 
 
 #### Undegraduate Students
-
-1. **Khang Bui** (Villanova Undegraduate Research Fund)
-  * Project Title: Graph representation learning for the mitigation of IoT-based DDoS attacks
-2. **Tommy Nguyen** 
+1. **Tommy Nguyen** 
   * Project Title: Machine-readable datasets for two low-resourced languages: Igbo & Nigerian Pidgin
-3. **Jack McIntyre** 
+2. **Jack McIntyre** 
   * Project Title: Federated learning for IoT intrusion detection
-4. **Khanh Le**
+3. **Khanh Le**
    * Project Title: Multi-agent LLM for Enhanced Security.
 
 
@@ -89,3 +86,5 @@ Constrained Embedded Systems](https://ieeexplore.ieee.org/document/9619844)
   * Project Title: Towards Detecting online dating scams
 7. **Maria Monila**
   * Project Title: Privacy preserving techniques for medical data.
+8. **Khang Bui** (Villanova Undegraduate Research Fund)
+  * Project Title: Graph representation learning for the mitigation of IoT-based DDoS attacks
