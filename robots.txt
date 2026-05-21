@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://ebelenwaf.github.io/sitemap.xml
